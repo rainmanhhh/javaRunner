@@ -65,6 +65,6 @@ public class JavaRunner {
       String target = args[0];
       String libDir = args.length > 1 ? args[1] : "lib";
       new JavaRunner().run(target, libDir);
-    } else throw new Exception("usage: java -jar javaRunner-*.jar <target class or jar> [libDir=lib] > <output script file>");
+    } else throw new Exception("usage: java -jar javaRunner-*.jar <target> [libDir=lib] > <script>");
   }
 }
